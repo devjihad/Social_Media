@@ -5,7 +5,10 @@
   --default-font-family: "Poppins", sans-serif;
   --color-blue1 : #615DFA;
   --color-blue2 : #45437F;
-  
+  --color-gray1 : #AFB0C0;
+  --color-blue : #23D2E2
+
+
 }
 @layer utilities{
   .container{
