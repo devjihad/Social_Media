@@ -39,9 +39,9 @@ const Leftbar = () => {
 
         <div className='mt-16 '>
 
-            <div className='flex gap-7.5 items-center px-5 py-3.5 ml-6 mr-2 rounded-xl hover:bg-blue'>
-                <img src={news} alt=""  className=''/>
-                <p className='text-gray1 hover:text-white w-full'>Newsfeed</p>
+            <div className='flex gap-7.5 items-center px-5 py-3.5 ml-6 mr-2 rounded-xl text-gray1 hover:bg-blue hover:text-white!'>
+                <img src={news} alt=""  className='transition duration-300 hover:grayscale hover:brightness-125'/>
+                <p className=' '>Newsfeed</p>
             </div>
 
             <div className='flex gap-7.5 items-center px-5 py-3.5 ml-6 mr-2 rounded-xl hover:bg-blue'>
